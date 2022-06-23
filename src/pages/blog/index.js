@@ -15,7 +15,6 @@ const BlogPage = ({ data }) => {
                 {node.frontmatter.title}
               </Link>
             </h2>
-            <p>{node.slug}</p>
             <p>Posted: {node.frontmatter.date}</p>
           </article>
         ))
